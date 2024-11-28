@@ -3,7 +3,7 @@ const express = require('express');
 const bcrypt = require('bcrypt');
 const User = require('../models/user');
 const router = express.Router();
-const SALT_LENGTH = 10; // Add this if you didn't define SALT_LENGTH
+const SALT_LENGTH = 10; 
 
 const jwt = require('jsonwebtoken');
 
